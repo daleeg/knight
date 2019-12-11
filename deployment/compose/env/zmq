@@ -1,0 +1,5 @@
+# Add Environment Variables
+
+ZMQ_REP_PORT=5558
+ZMQ_PULL_PORT=5559
+ZMQ_PUB_PORT=17288

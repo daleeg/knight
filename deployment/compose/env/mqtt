@@ -1,0 +1,5 @@
+MQTT_PORT=1883
+MQTT_HOST=classcard_emqx
+MQTT_CLIENT=classboard
+MQTT_USER=mtpub
+MQTT_PASSWORD=G67*@99XfjJ3

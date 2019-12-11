@@ -1,0 +1,5 @@
+EMQX_LOADED_PLUGINS=emqx_auth_username,emqx_recon,emqx_retainer,emqx_management,emqx_dashboard
+EMQX_AUTH__USER__1__USERNAME=mtpub
+EMQX_AUTH__USER__1__PASSWORD=G67*@99XfjJ3
+EMQX_AUTH__USER__2__USERNAME=schoolsub
+EMQX_AUTH__USER__2__PASSWORD=sub123

@@ -1,0 +1,1 @@
+0 * * * * grep "^server " /etc/ntp.conf | awk '{ print $2}' | while read host; do ntpdate -u $host && exit; done;

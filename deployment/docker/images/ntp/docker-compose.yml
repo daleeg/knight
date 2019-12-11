@@ -1,0 +1,21 @@
+version: '3.1'
+
+services:
+
+  cloud_ntp:
+    image: cloud/ntp
+    #image: cloudwattfr/ntpserver
+    container_name: ntp_server
+    #restart: always
+    ports:
+      - 123:123/udp
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /etc/timezone:/etc/timezone
+      #- /usr/sbin/ntpdate:/usr/sbin/ntpdate
+      #- /usr/sbin/ntpd:/usr/sbin/ntpd
+    #privileged: true
+    cap_add:
+      - SYS_NICE
+      - SYS_RESOURCE
+      - SYS_TIME
