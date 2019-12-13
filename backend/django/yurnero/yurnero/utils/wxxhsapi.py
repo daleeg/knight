@@ -78,7 +78,7 @@ class WxXhsApi(object):
     #     result = self._get(route)
     #     return result
 
-    def search_notes(self, keyword, sort="general", page=1, per_page=20):
+    def search_notes(self, keyword, page=1, per_page=20, sort="general"):
         route = "search/notes"
         params = {
             "keyword": keyword,
