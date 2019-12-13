@@ -1,0 +1,11 @@
+.idea/
+__pycache__/
+build/
+log/
+dist/
+*.eggs/
+*.egg-info/
+*.py[co]
+*AUTHORS
+*ChangeLog
+*.DS_Store
